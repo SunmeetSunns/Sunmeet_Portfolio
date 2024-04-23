@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Sunmeet_Portfolio/static/css/main.873ec2c8.css",
+    "main.js": "/Sunmeet_Portfolio/static/js/main.aa125b98.js",
+    "static/media/boy.png": "/Sunmeet_Portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/Sunmeet_Updated_Resume.pdf": "/Sunmeet_Portfolio/static/media/Sunmeet_Updated_Resume.550a5bfb980727b9224a.pdf",
+    "static/media/glassesimoji.png": "/Sunmeet_Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/News.jpeg": "/Sunmeet_Portfolio/static/media/News.e4ae942ad6129ed13975.jpeg",
+    "static/media/Reazorpay.jpeg": "/Sunmeet_Portfolio/static/media/Reazorpay.2bc0ccb7e94f8f6fe21d.jpeg",
+    "static/media/TicTac.jpeg": "/Sunmeet_Portfolio/static/media/TicTac.e0191079a6b21b823fda.jpeg",
+    "static/media/logo.png": "/Sunmeet_Portfolio/static/media/logo.f4070143e1f521da82a1.png",
+    "static/media/thumbup.png": "/Sunmeet_Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Sunmeet_Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Sunmeet_Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Sunmeet_Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Sunmeet_Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Sunmeet_Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Sunmeet_Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/Discord.jpeg": "/Sunmeet_Portfolio/static/media/Discord.10ead32de76fdd8e36e7.jpeg",
+    "index.html": "/Sunmeet_Portfolio/index.html",
+    "main.873ec2c8.css.map": "/Sunmeet_Portfolio/static/css/main.873ec2c8.css.map",
+    "main.aa125b98.js.map": "/Sunmeet_Portfolio/static/js/main.aa125b98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.873ec2c8.css",
+    "static/js/main.aa125b98.js"
+  ]
+}
