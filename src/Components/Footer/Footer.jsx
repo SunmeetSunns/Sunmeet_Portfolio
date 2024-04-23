@@ -13,9 +13,11 @@ function Footer() {
     <div className="f-content">
         <span>kaursunmeet624@gmail.com</span>
         <div className="f-icons">
-            <Instagram color='white' size='3rem'/>
-            <Github color='white' size='3rem'/>
-            <Linkedin color='white' size='3rem'/>
+          <a href="https://www.instagram.com/kaursunmeet624/">
+          <Instagram color='white' size='3rem'/></a>
+           <a href="https://github.com/SunmeetSunns"> <Github color='white' size='3rem'/></a>
+           <a href="https://www.linkedin.com/in/sunmeet-kaur-sachdeva-0b5374228/"> <Linkedin color='white' size='3rem'/></a>
+           
         </div>
     </div>
    </div>

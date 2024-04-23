@@ -5,7 +5,7 @@
     flex-direction: column;
     height: 70vh;
 }
-.portfolio span:nth-of-type(1){
+.port-heading{
     color: var(--black);
     font-size: 2rem;
     font-weight: bold;
@@ -26,14 +26,55 @@
 }
 .portfolio-slider .swiper-slide{
     width: 20rem;
+ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2em;
+        align-items: center;
+    
 
 }
 .portfolio img{
     width: 19rem;
+    height: 11em;
     filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
     border-radius: 19px;
 }
+
 .p-blur2{
     left: 55em;
     top: 5em;
+}
+
+.projnames{
+    font-size: 1.5rem;
+
+}
+
+.portfolio-slider .swiper-pagination-bullet-active{
+   
+    background: var(--orange);
+}
+
+.portfolio-slider .swiper-button-next{
+    margin-right: -3em;
+    color: #242d49;
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    box-shadow: var(--boxShadow);
+}
+.portfolio-slider .swiper-button-prev{
+    margin-left: -3em;
+    color: #242d49;
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    box-shadow: var(--smboxShadow);
+    
 }
