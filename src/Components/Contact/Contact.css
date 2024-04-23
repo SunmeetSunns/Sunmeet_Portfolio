@@ -71,3 +71,20 @@ form {
     left: -11em;
     top: 2em;
 }
+@media screen and (max-width:480px) {
+    .contact-box{
+        height: 25em;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 15em;
+        gap: 3em;
+    }
+    .c-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        margin-right: 0!important;
+    }
+}

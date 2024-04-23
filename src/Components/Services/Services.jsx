@@ -23,7 +23,7 @@ function Services() {
       {/* Right side */}
       <div className="cards">
         <motion.div
-        whileInView={{left:'12rem'}}
+        whileInView={{left:'15rem'}}
         initial={{left:'20%'}}
         transition={transition}
          style={{ left: `14rem`,top:'1.5em' }}><Card emogi={Heartemogi} heading='Design' detail='Figma,Sketch,Photoshop,
@@ -33,7 +33,7 @@ function Services() {
          whileInView={{left:'-6rem'}}
          initial={{left:'10%'}}
          transition={transition}
-          style={{ top: `10rem`, left: `-2rem` }}><Card emogi={Glasses} heading='Developer' detail='HTML , CSS , Javascript , React , Angular ' />
+          style={{ top: `10rem`, left: `-2rem` }}><Card emogi={Glasses} heading='Developer' detail='HTML , CSS , Javascript , React , Angular Javascript , React , Angular ' />
         </motion.div>
         <motion.div 
          whileInView={{left:'10rem'}}

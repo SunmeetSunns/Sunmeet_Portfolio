@@ -78,3 +78,9 @@
     box-shadow: var(--smboxShadow);
     
 }
+@media screen and (max-width:480px) {
+    .portfolio{
+        padding: 0;
+        margin-bottom: 12em;
+    }
+}

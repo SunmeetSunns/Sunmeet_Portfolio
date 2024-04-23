@@ -47,4 +47,7 @@ font-weight: 400;
     .n-list{
       display: none;
     }
+    .n-button{
+        display: none;
+    }
   }

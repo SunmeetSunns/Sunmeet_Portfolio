@@ -55,14 +55,16 @@ function Intro() {
                     initial={{ left: '74%', top: '-4%' }}
                     whileInView={{ left: '60%' }}
                     transition={transition}
-                    style={{ top: `-4%`, left: `58%` }}>
+                    style={{ top: `-4%`, left: `58%` }}
+                    className='floating-div'>
                     <FloatingDiv image={crown} txt1='Web' txt2='Developer' />
                 </motion.div>
                 <motion.div
                     initial={{ left: '9rem', top: '18rem' }}
                     whileInView={{ left: '2rem' }}
                     transition={transition}
-                    style={{ top: `18.4rem`, left: `1rem` }}>
+                    style={{ top: `18.4rem`, left: `1rem` }}
+                    className='floating-div'>
                     <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
                 </motion.div>
                 <div className="blur" style={{ background: `rgb(238,210,255)` }}></div>
