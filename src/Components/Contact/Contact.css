@@ -1,0 +1,73 @@
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 4em;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    position: relative;
+
+}
+
+.c-left>:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.c-left>:nth-child(2) {
+    color: var(--orange);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.c-right {
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5em;
+    margin-right: 8em;
+}
+
+.c-right>form>input {
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 1em;
+    width: 90%;
+    margin-right: 8em;
+}
+.c-right>form>textarea {
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 1em;
+    width: 90%;
+    margin-right: 8em;
+}
+
+.c-right>form>textarea {
+    width: 90%;
+    margin-right: 8em;
+    height: 2em;
+}
+
+.co-btn {
+    width: 6em;
+    align-self: center;
+}
+
+.c-blur1 {
+    left: 11em;
+    top: 4em;
+}
+
+.c-blur2 {
+    left: -11em;
+    top: 2em;
+}
