@@ -8,7 +8,7 @@ import Sidebar from '../../img/News.jpeg'
 import TicTac from '../../img/TicTac.jpeg'
 import Quiz from '../../img/Quiz.png'
 import 'swiper/css'
-import { useContext } from 'react';
+import { useContext ,useEffect,useState} from 'react';
 import { themeContext } from '../../Context';
 import { Navigation, Pagination } from 'swiper/modules'
 import 'swiper/css/pagination'; // Import Swiper pagination styles
@@ -16,6 +16,22 @@ import 'swiper/css/navigation';
 
 
 function Portfolio() {
+    const [swipesPerSlide, setSwipesPerSlide] = useState(3);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 480) {
+                setSwipesPerSlide(1);
+            } else {
+                setSwipesPerSlide(3);
+            }
+        };
+
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
   return (
@@ -27,10 +43,11 @@ function Portfolio() {
 
     {/* Slider */}
 <Swiper spaceBetween={30}
-slidesPerView={3} grabCursor={true} 
-className='portfolio-slider'
-modules={[Navigation]}
-navigation={true}
+                slidesPerView={swipesPerSlide}
+                grabCursor={true}
+                className="portfolio-slider"
+                modules={[Navigation]}
+                navigation={true}
 >
 
     <SwiperSlide>

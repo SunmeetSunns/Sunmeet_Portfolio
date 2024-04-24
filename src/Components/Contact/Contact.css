@@ -76,7 +76,7 @@ form {
         height: 25em;
         flex-direction: column;
         padding: 0;
-        margin-bottom: 15em;
+        margin-bottom: 2em;
         gap: 3em;
     }
     .c-right{
@@ -86,5 +86,11 @@ form {
     }
     form{
         margin-right: 0!important;
+    }
+    .c-left>span{
+        font-size: 2em !important;
+    }
+    .c-left{
+        margin-left: 1em !important;
     }
 }

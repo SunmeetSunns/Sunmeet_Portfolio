@@ -82,7 +82,7 @@
         flex-direction: column;
         height: 55rem;
         padding: 0;
-        margin-bottom: 40em;
+        margin-bottom: 2em;
     }
     .w-right{
         display: flex;
@@ -96,4 +96,13 @@
     .w-backCircle{
         left: 8rem!important;
     }
+    .awesome{
+        margin-right: 0em!important;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .awesome>span{
+        text-align: left;
+    }
+    
 }

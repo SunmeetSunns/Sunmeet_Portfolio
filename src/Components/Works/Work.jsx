@@ -8,6 +8,7 @@ import Facebook from '../../img/Facebook.png';
 import { motion } from 'framer-motion';
 import { useContext } from 'react';
 import { themeContext } from '../../Context';
+import { Link } from 'react-scroll'
 
 
 function Work() {
@@ -24,7 +25,9 @@ function Work() {
                     <br />
                    
                     veritatis deleniti dolorem molestias aut Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ..</span>
-                <button className="button s-button">Hire Me</button>
+                    <Link spy={true} to='Contact' smooth={true}>
+                    <button className="button s-button">Hire Me</button></Link>
+                
 
                 <div className="blur s-blur1" style={{ background: `#ABF1FF94` }}></div>
             </div>

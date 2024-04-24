@@ -108,7 +108,8 @@ transform: scale(0.5);
         display: none;
     }
     .floating-div:nth-of-type(1){
-        top: -5rem !important;
+        top: -6rem !important;
+        left: 12.5rem!important;
        
     }
     

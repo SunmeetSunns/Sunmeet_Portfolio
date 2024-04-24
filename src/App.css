@@ -38,11 +38,14 @@
 @media screen and (max-width:480px){
   .App{
     padding: 0.5rem 1rem;
+    overflow-x: hidden;
   }
 }
 .dark-mode-swiper-main{
   --black : #7993e2;
   --smboxShadow: -79px 51px 60px rgb(234 228 228 / 16%);
   --boxShadow:0px 19px 60px rgb(239 234 234 / 34%);
-  --gray : #8693b7
+  --gray : #8693b7;
+ 
+
 }

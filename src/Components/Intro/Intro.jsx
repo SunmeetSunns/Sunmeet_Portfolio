@@ -13,6 +13,7 @@ import glassesemogi from '../../img/glassesimoji.png'
 import { useContext } from 'react'
 import { themeContext } from '../../Context'
 import { motion } from 'framer-motion';
+import {Link} from 'react-scroll'
 
 
 function Intro() {
@@ -27,7 +28,8 @@ function Intro() {
                     <span>Sunmeet Kaur Sachdeva </span>
                     <span>Angular Developer with high level of experience and development, producing the Quality work</span>
                 </div>
-                <button className=" button i-button">Hire Me</button>
+                <Link spy={true} to='Contact' smooth={true}>
+                    <button className="button s-button">Hire Me</button></Link>
                 <div className="i-icons">
                     <a href='https://github.com/SunmeetSunns'>
                         <img src={Github} alt='github icon' />

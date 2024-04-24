@@ -81,6 +81,22 @@
 @media screen and (max-width:480px) {
     .portfolio{
         padding: 0;
-        margin-bottom: 12em;
+        margin-bottom: 6em;
     }
+    .portfolio img{
+        width: 15rem;
+    }
+    .portfolio-slider .swiper-button-next {
+        width: 3em;
+    height: 3em;
+    margin-right: -2em;
+    transform: scale(0.6);
+    }
+    .portfolio-slider .swiper-button-prev {
+        width: 3em;
+    height: 3em;
+    transform: scale(0.6);
+    margin-left: -2em;
+    }
+    
 }
