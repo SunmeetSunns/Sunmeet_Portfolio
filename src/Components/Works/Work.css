@@ -2,11 +2,18 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
-    margin-top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 .w-right{
     position: relative;
+    margin-right: 3em;
+    margin-bottom: 4em;
+}
+.awesome{
+    margin-top: 1em;
 }
 .w-mainCircle{
     position: relative;
@@ -15,7 +22,7 @@
     height: 18rem;
     border-radius: 100%;
     box-shadow: var(--smboxShadow);
-    top: 2rem;
+    top: 1rem;
     background: white;
 }
 
@@ -57,8 +64,9 @@
     background: white;
 }
 .w-secCircle>img{
-    transform: scale(0.6);
+    transform: scale(0.4);
 }
+
 .w-backCircle{
     position: absolute;
     height: 13rem;
@@ -66,6 +74,16 @@
     border-radius: 100%;
     z-index: -1;
 
+}
+.ninja{
+    transform: scale(0.4) !important;
+}
+.shopify{
+    transform: scale(0.6) !important;
+}
+.myWork{
+    width: 30em;
+    max-width: fit-content;
 }
 .blueCircle{
     background: #1949B8;

@@ -19,7 +19,7 @@ function Experiencs() {
             <span>Projects</span>
         </div>
         <div className="achievement">
-            <div className={`circle ${darkMode ? 'dark-mode-exp' : 'light-mode-exp'}`} style={darkMode?{color:'black',zIndex:'+1'}:{color:'var(--black)',zIndex:''}}><span>+4</span></div>
+            <div className={`circle ${darkMode ? 'dark-mode-exp' : 'light-mode-exp'}`} style={darkMode?{color:'black',zIndex:'+1'}:{color:'var(--black)',zIndex:''}}><span>2</span></div>
             <span>Internship</span>
             <span>Work</span>
             

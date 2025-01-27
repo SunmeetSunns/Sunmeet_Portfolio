@@ -7,10 +7,12 @@ import MusicApp from '../../img/Discord.jpeg'
 import Sidebar from '../../img/News.jpeg'
 import TicTac from '../../img/TicTac.jpeg'
 import Quiz from '../../img/Quiz.png'
+import WealthSphere from '../../img/FinanceLogo.png'
 import 'swiper/css'
 import { useContext ,useEffect,useState} from 'react';
 import { themeContext } from '../../Context';
-import { Navigation, Pagination } from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper/modules';
+
 import 'swiper/css/pagination'; // Import Swiper pagination styles
 import 'swiper/css/navigation';
 
@@ -50,6 +52,12 @@ function Portfolio() {
                 navigation={true}
 >
 
+<SwiperSlide>
+        <a href="https://deft-starship-250f12.netlify.app/">
+        <img src={WealthSphere}  style ={darkMode?{border:'2px solid #544b4b',boxShadow:'0px 19px 60px rgb(239 234 234 / 21%)'}:{}}alt="" />
+        </a>
+        <span className='projnames'>WealthSphere | Portfolio Manager</span>
+    </SwiperSlide>
     <SwiperSlide>
         <a href="https://github.com/SunmeetSunns/Frontend-Netflix">
         <img src={Netflix}  style ={darkMode?{border:'2px solid #544b4b',boxShadow:'0px 19px 60px rgb(239 234 234 / 21%)'}:{}}alt="" />

@@ -8,6 +8,7 @@
 .port-heading{
     color: var(--black);
     font-size: 2rem;
+    margin-top: 3em;
     font-weight: bold;
 }
 .portfolio span:nth-of-type(2){
@@ -21,7 +22,7 @@
 
 }
 .portfolio-slider{
-    margin-top: 3rem;
+    margin-top: 6rem;
     width: 100%;
 }
 .portfolio-slider .swiper-slide{
