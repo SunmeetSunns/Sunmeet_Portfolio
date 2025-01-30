@@ -4,7 +4,7 @@ import Heartemogi from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card';
-import Resume from './Sunmeet_Updated_Resume.pdf';
+import Resume from './SunmeetKaurResume.pdf';
 import { motion } from 'framer-motion';
 
 function Services() {
